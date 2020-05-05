@@ -1,0 +1,74 @@
+html, body {
+  color: white;
+  text-align: justify;
+  letter-spacing: 0.1em;
+}
+main {
+  height: 100%;
+  background: #2c2d2d;
+}
+ul > li:before {
+  color: #2c2d2d;
+}
+h3 {
+  color: #2c2d2d
+}
+a {
+  color: #FFFB00;
+}
+svg {
+  color: #FFFB00;
+}
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: #2c2d2d;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(50deg, #27ae60, #f1c40f);
+  border-radius: 20px;
+}
+.no-letter-spacing {
+  letter-spacing: normal;
+}
+#particles-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  display: flex;
+}
+.contacts li {
+  color: #FFFB00;
+}
+.contacts span {
+  color: #FFFFFF;
+}
+.divider.fat {
+  border-top: 0.3571428571428571em solid #f1c40f;
+}
+li.highlighted {
+  background: rgba(0, 0, 0, 0.1);
+}
+.details > input:after {
+  border-left: 0.5em solid #2c2d2d;
+}
+ol.inverted > li:before {
+  background: #2c2d2d;
+  color: #f1c40f;
+}
+.color:before {
+  background-color: #0B6623;
+}
+.tags.bulleted .tag:not(:last-child):after {
+  color: #2c2d2d;
+}
+.page {
+  background: #27ae60;
+  box-shadow: 0 10px 100px 0 rgba(241, 196, 15, 0.5);
+}
+.section-languages {
+  text-align: start;
+}
+.li-from-sections {
+  padding: 1em 0;
+}
